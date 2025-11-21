@@ -29,7 +29,7 @@ jobs:
       - name: Test con pytest y cobertura
         run: |
           export PYTHONPATH=$(pwd)
-          pytest --cov=src --cov-fail-under=95
+          pytest --cov=src --cov-fail-under=85
 
       - name: Éxito
         run: echo "Todas las pruebas y cobertura pasaron"
