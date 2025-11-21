@@ -29,6 +29,8 @@ Los errores con ruff se verifican con el comando de ruff check ., los de pytest 
 
 2. Explicar por qué no es posible asegurar al 100% la autoría:
 
+Porque los Detectores de IA tienen falsos positivos y negativos por que un estudiante puede imitar por decirlo asi el tipo y estilo de escritura muy correcto de la IA
+
 3. Propuestas de politicas razonables del uso de la IA:
 
 Primero el uso de la IA como ayuda o soporte para aprender y entender conceptos y errores desconocidos
