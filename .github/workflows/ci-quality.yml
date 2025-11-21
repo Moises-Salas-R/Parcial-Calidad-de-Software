@@ -16,13 +16,13 @@ jobs:
       - name: Instalar Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.14'
+          python-version: '3.11'
 
       - name: Instalar dependencias
         run: |
           python -m pip install pytest pytest-cov ruff
 
-          
+
       - name: Lint con ruff
         run: ruff check .
 
