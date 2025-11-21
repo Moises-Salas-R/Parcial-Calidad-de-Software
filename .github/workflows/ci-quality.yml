@@ -27,7 +27,7 @@ jobs:
         run: ruff check .
 
       - name: Test con pytest y cobertura
-        run: pytest --cov=src --cov-fail-under=85
+        run: pytest --cov=src --cov-fail-under=95
 
       - name: Éxito
         run: echo "Todas las pruebas y cobertura pasaron"
