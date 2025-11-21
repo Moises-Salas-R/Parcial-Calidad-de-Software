@@ -15,3 +15,9 @@ Creo que este procentaje es uno muy optimo y equilibrado por que 70% es un porce
 
 -Parte 4 Validacion y logs:
 
+1. Como identificar fallas de linter, pruebas y logs
+
+Los errores con ruff se verifican con el comando de ruff check ., los de pytest salen con stacktrace y la cobertura falla con un porcentaje menor a 85%
+
+2. Como generar un run fallido y uno exitoso y explicar la diferencia:
+
